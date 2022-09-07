@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "shapes"
+version = "0.1.0"
+description = "Library of code for woring with shapes"
+authors = ["Lmooney25 <liammooney50@yahoo.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.1.3"
+flake8 = "^5.0.4"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.971"
+black = "^22.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
