@@ -3,7 +3,7 @@ from math import pi
 
 class Sphere:
     def __init__(self, radius: int) -> None:
-        self.radius = radius 
+        self.radius = radius
 
     @property
     def surface_area(self) -> float:
@@ -14,7 +14,7 @@ class Sphere:
         return (4 / 3) * pi * self.radius**3
 
 
-class Couboid:
+class Cuboid:
     def __init__(self, length: int, width: int, height: int) -> None:
         self.length = length
         self.width = width
