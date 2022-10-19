@@ -1,4 +1,4 @@
-from shapes import shapes_3d
+from lgm_shapes_test import shapes_3d
 from math import pi
 
 
