@@ -35,6 +35,9 @@ jobs:
         python-version: ["3.9"]
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      ## full history of commits on repo will be checked out. Needed to for tool to determine how to set package version
       - name: Install Poetry
         run: pipx install poetry
       - name: Set up Python ${{ matrix.python-version }}
