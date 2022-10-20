@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "lgm_shapes_test"
 version = "0.0.2"
-description = "Library of code for woring with shapes"
+description = "Library of code for working with shapes"
 authors = ["Lmooney25 <liammooney50@yahoo.co.uk>"]
 readme = "README.md"
 
