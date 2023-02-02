@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2023-02-02)
+
+
 ## v0.2.0 (2022-10-25)
 ### Feature
 * Adds cylinder type ([`9240361`](https://github.com/Lmooney25/shapes/commit/9240361004c73e7ca7e4bbdfd7f12e599b8be6e0))
