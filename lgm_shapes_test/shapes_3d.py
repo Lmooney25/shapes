@@ -43,17 +43,3 @@ class Cube:
     @property
     def volume(self) -> int:
         return self.length**3
-
-
-class Cylinder:
-    def __init__(self, height: int, radius: int) -> None:
-        self.height = height
-        self.radius = radius
-
-    @property
-    def volume(self) -> float:
-        return self.radius**2 * self.height * pi
-
-    @property
-    def surface_area(self) -> float:
-        return 2 * pi * self.radius * (self.radius + self.height)
